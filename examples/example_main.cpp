@@ -4,7 +4,7 @@
 int main() {
   rsu::RSUParams p;
 
-  // 너의 값 (unit: mm)
+  // unit: mm
   p.a_W[0] = Eigen::Vector3d(0, 0,  44);
   p.a_W[1] = Eigen::Vector3d(0, 0, -44);
 
